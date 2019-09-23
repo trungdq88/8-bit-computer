@@ -6,6 +6,8 @@ var INS_CODE = {
   JC: 5,
   JZ: 6,
   SUB: 7,
+  LDI: 8,
+  STA: 9,
   HLT: 15,
 };
 
@@ -45,6 +47,8 @@ var INS = {
   JMP: [...template, OP.IO | OP.JU],
   JC: [...template],
   JZ: [...template],
+  LDI: [...template, OP.IO | OP.AI],
+  STA: [...template, OP.IO | OP.MI, OP.AO | OP.RI],
 };
 
 MICROOPT_COUNT = Object.keys(OP).length;
