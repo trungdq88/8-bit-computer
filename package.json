@@ -1,0 +1,12 @@
+{
+  "name": "8-bit-computer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:trungdq88/8-bit-computer.git",
+  "author": "Tony Dinh <trungdq88@gmail.com>",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^24.9.0"
+  }
+}
